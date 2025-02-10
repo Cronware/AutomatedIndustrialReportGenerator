@@ -53,29 +53,31 @@ private string connectionString = "Host=localhost;Port=5432;Username=your_user;P
 Replace your_user and your_password with your PostgreSQL credentials.
 ### **4️⃣ Install Dependencies** 
 Ensure you have installed the required NuGet packages in Visual Studio:
+```sh
 dotnet add package Dapper
 dotnet add package Npgsql
 dotnet add package System.Data.SqlClient
 dotnet add package iTextSharp.LGPLv2.Core
 dotnet add package ClosedXML
 dotnet add package MailKit
+```
 
 ## 📌 How to Use the App
 - 1️⃣ Load Machine Data:
-Click "Load Machine Data" to retrieve data from PostgreSQL.
+   - Click "Load Machine Data" to retrieve data from PostgreSQL.
 - 2️⃣ Generate Reports
-Click "Generate PDF Report" to create a PDF file.
-Click "Generate Excel Report" to create an Excel file.
+   - Click "Generate PDF Report" to create a PDF file.
+   - Click "Generate Excel Report" to create an Excel file.
 - 3️⃣ Send Reports via Email
-Enter the recipient's email in the text box.
-Click "Send Report via Email" to send a PDF attachment.
+   - Enter the recipient's email in the text box.
+   - Click "Send Report via Email" to send a PDF attachment.
 - 4️⃣ Automate Reports (Daily/Weekly/Monthly)
-Select a schedule (Daily, Weekly, Monthly).
-Check "Enable Automated Reports" to start auto-reporting.
+   - Select a schedule (Daily, Weekly, Monthly).
+   - Check "Enable Automated Reports" to start auto-reporting.
 The app will automatically generate & send reports at the selected interval.
 
 ## 📧 Email Setup (Gmail)
-  If using Gmail, enable App Passwords:
-      Go to Google App Passwords.
-      Generate a 16-character App Password.
-      Use it in EmailHelper.cs instead of your normal password.
+- If using Gmail, enable App Passwords:
+  - Go to Google App Passwords.
+  - Generate a 16-character App Password.
+  - Use it in EmailHelper.cs instead of your normal password.
