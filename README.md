@@ -55,18 +55,18 @@ dotnet add package ClosedXML
 dotnet add package MailKit
 
 ## 📌 How to Use the App
-1️⃣ Load Machine Data
-    Click "Load Machine Data" to retrieve data from PostgreSQL.
-2️⃣ Generate Reports
-    Click "Generate PDF Report" to create a PDF file.
-    Click "Generate Excel Report" to create an Excel file.
-3️⃣ Send Reports via Email
-    Enter the recipient's email in the text box.
-    Click "Send Report via Email" to send a PDF attachment.
-4️⃣ Automate Reports (Daily/Weekly/Monthly)
-    Select a schedule (Daily, Weekly, Monthly).
-    Check "Enable Automated Reports" to start auto-reporting.
-    The app will automatically generate & send reports at the selected interval.
+-1️⃣ Load Machine Data:
+Click "Load Machine Data" to retrieve data from PostgreSQL.
+-2️⃣ Generate Reports
+Click "Generate PDF Report" to create a PDF file.
+Click "Generate Excel Report" to create an Excel file.
+-3️⃣ Send Reports via Email
+Enter the recipient's email in the text box.
+Click "Send Report via Email" to send a PDF attachment.
+-4️⃣ Automate Reports (Daily/Weekly/Monthly)
+Select a schedule (Daily, Weekly, Monthly).
+Check "Enable Automated Reports" to start auto-reporting.
+The app will automatically generate & send reports at the selected interval.
 
 ## 📧 Email Setup (Gmail)
   If using Gmail, enable App Passwords:
