@@ -38,14 +38,18 @@ CREATE TABLE machine_data (
 );
 ```
 4. Insert sample data:
+```sql
 INSERT INTO machine_data (machine_name, temperature, pressure, status) 
 VALUES 
 ('Machine A', 75.5, 1.2, 'Running'),
 ('Machine B', 60.3, 1.1, 'Stopped'),
 ('Machine C', 80.1, 1.3, 'Running');
+```
 ### **3️⃣ Configure Database Connection**
 Open the DatabaseHelper.cs file and update the connection string:
+```csharp
 private string connectionString = "Host=localhost;Port=5432;Username=your_user;Password=your_password;Database=industrial_reports";
+```
 Replace your_user and your_password with your PostgreSQL credentials.
 ### **4️⃣ Install Dependencies** 
 Ensure you have installed the required NuGet packages in Visual Studio:
