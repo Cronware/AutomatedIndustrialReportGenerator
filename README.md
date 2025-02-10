@@ -27,6 +27,7 @@ The **Automated Industrial Report Generator** is a **C# WinForms application** t
 ### **2️⃣ Create the `machine_data` Table**
 1. Open **pgAdmin** and select the `industrial_reports` database.
 2. Click **Tools → Query Tool** and run the following SQL:
+```sql
 CREATE TABLE machine_data (
     id SERIAL PRIMARY KEY,
     machine_name VARCHAR(255),
@@ -35,7 +36,8 @@ CREATE TABLE machine_data (
     pressure NUMERIC(5,2),
     status VARCHAR(50)
 );
-3. Insert sample data:
+```
+4. Insert sample data:
 INSERT INTO machine_data (machine_name, temperature, pressure, status) 
 VALUES 
 ('Machine A', 75.5, 1.2, 'Running'),
