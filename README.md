@@ -4,6 +4,8 @@ The **Automated Industrial Report Generator** is a **C# WinForms application** t
 
 ---
 
+![image](https://github.com/user-attachments/assets/546de0ca-a333-43a2-babd-0d6814204ef4)
+
 ## 🚀 Features
 - ✅ **Connects to a PostgreSQL database**  
 - ✅ **Displays machine data in a DataGridView**  
